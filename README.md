@@ -28,8 +28,8 @@ The deployed site can be found by clicking [here][deployment].
 
 Please check out these links.<br>
 
--   https://squidfunk.github.io/mkdocs-material/setup/
--   https://www.mkdocs.org/getting-started/#adding-pages
+- https://squidfunk.github.io/mkdocs-material/setup/
+- https://www.mkdocs.org/getting-started/#adding-pages
 
 [//]: # 'Links'
-[deployment]: https://kaleido-subs.github.io/style-guide/
+[deployment]: https://kaleido-subs.github.io/handbook/
