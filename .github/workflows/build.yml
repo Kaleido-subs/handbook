@@ -2,12 +2,17 @@ name: Build & serve site
 on:
   push:
     branches:
-      - master 
+      - master
       - main
+    paths:
+      - docs/**
+      - mkdocs.yml
+      - .github/workflows/**
   workflow_dispatch:
-    
+
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
