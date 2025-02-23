@@ -1,8 +1,8 @@
-site_name: The Kaleido Subtitling Style Handbook
-site_description: A comprehensive guide for Kaleido's best subtitling practices
-site_author: LightArrowsEXE
-site_url: https://example.com
-repo_url: https://github.com/Kaleido-subs/style-guide
+site_name: Kaleido Subtitling Handbook
+site_description: A comprehensive handbook for Kaleido's best subtitling practices
+site_author: Kaleido-subs
+site_url: https://kaleido-subs.github.io/handbook/guidelines
+repo_url: https://github.com/Kaleido-subs/handbook
 
 theme:
   name: material
@@ -15,34 +15,51 @@ theme:
     - content.code.copy
     - content.code.select
     - navigation.expand
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
 
 nav:
   - Home: index.md
   - Group:
+    - Index: group/index.md
     - Roles: group/roles.md
     - Distribution: group/distribution.md
-  - Guidelines:
-    - Dialogue Styling: guidelines/styling/dialogue_styling.md
-    - Translation: guidelines/translation.md
-    - Editing: guidelines/editing.md
-    - Timing: guidelines/timing.md
-    - Shenanigans: guidelines/shenanigans.md
-    - Song Styling: guidelines/styling/songstyling.md
-    - Typesetting: guidelines/typesetting.md
-    - Technical: guidelines/technical.md
-  - Building:
-    - Introduction: building/index.md
-    - Getting Started: building/getting-started.md
-    - Project Structure:
-      - Introduction: building/structure/index.md
-    - Subtitle Properties:
-      - Structure: building/properties/index.md
-    - Build Script:
-      - Introduction: building/build-script/index.md
-      - Tasks: building/build-script/tasks.md
+  - Roles:
+    - Index: roles/index.md
+    - Translation: roles/translation.md
+    - Editing: roles/editing.md
+    - Timing: roles/timing.md
+    - Typesetting: roles/typesetting.md
+    - Song Styling: roles/songstyling.md
+  - Technical:
+    - Index: technical/index.md
+    - Dialogue Styling: technical/dialogue-styling.md
+    - Shenanigans: technical/shenanigans.md
+    - Building Muxes:
+      - Introduction: building/index.md
+      - Getting Started: building/getting-started.md
+      - Project Structure:
+        - Introduction: building/structure/index.md
+      - Subtitle Properties:
+        - Structure: building/properties/index.md
+      - Build Script:
+        - Introduction: building/build-script/index.md
+        - Tasks: building/build-script/tasks.md
   - Release:
+    - Index: release/index.md
     - Description: release/description.md
-  - Additional Resources: resources.md
+  - Additional Resources:
+    - Index: resources/index.md
 
 plugins:
 - search
@@ -74,3 +91,4 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc

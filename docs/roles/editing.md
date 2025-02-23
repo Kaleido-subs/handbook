@@ -312,7 +312,7 @@ as punctuation rules and styles vary greatly between languages.
         of every single incomplete line (looking at you, [a.f.k.])
 
         !!! failure "Bad use of ellipses (thanks, [a.f.k.])"
-             ![Example of bad use of ellipses from a.f.k.'s Lucky Star 06 release](./img/bad-ellipses.png)
+             ![Example of bad use of ellipses from a.f.k.'s Lucky Star 06 release](./img/editing/bad-ellipses.png)
 
         Always consider whether a full stop or even a comma would be more appropriate,
         or if a line even needs punctuation at all
@@ -326,7 +326,7 @@ as punctuation rules and styles vary greatly between languages.
         they are completely fine to use.
 
         !!! success "Good use of ellipses"
-             ![Example of good use of ellipses from Kaleido's Blue Archive 01 release](./img/good-ellipses.png)
+             ![Example of good use of ellipses from Kaleido's Blue Archive 01 release](./img/editing/good-ellipses.png)
 
         _Also, never use the four-dotted ellipsis._
 

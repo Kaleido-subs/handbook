@@ -25,7 +25,7 @@ and not too distracting.
 !!! example "Styles used by various groups"
     === "Kaleido"
 
-         ![Kaleido-subs dialogue style](./img/styling/groups/kaleido.png)
+         ![Kaleido-subs dialogue style](./img/dialogue-styling/groups/kaleido.png)
 
          ```markdown
          Style: Default,LTFinnegan Medium,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,0,0,0,0,100,100,0,0,1,3.6,1.5,2,200,200,60,1
@@ -33,7 +33,7 @@ and not too distracting.
 
     === "Good Job! Media"
 
-         ![Good Job! Media dialogue style](./img/styling/groups/goodjobmedia.png)
+         ![Good Job! Media dialogue style](./img/dialogue-styling/groups/goodjobmedia.png)
 
          ```markdown
          Style: GJM_Main_1080p,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,225,225,60,1
@@ -41,7 +41,7 @@ and not too distracting.
 
     === "SubsPlease"
 
-         ![SubsPlease dialogue style](./img/styling/groups/subsplease.png)
+         ![SubsPlease dialogue style](./img/dialogue-styling/groups/subsplease.png)
 
         !!! Danger "Upsampled (640×360 ⇒ 1920×1080)"
 
@@ -51,7 +51,7 @@ and not too distracting.
 
     === "DameDesuYo"
 
-         ![DameDesuYo dialogue style](./img/styling/groups/damedesuyo.png)
+         ![DameDesuYo dialogue style](./img/dialogue-styling/groups/damedesuyo.png)
 
          ```markdown
          Style: Default,Cronos Pro,78,&H00FFFFFF,&H000000FF,&H0000003B,&H00000000,-1,0,0,0,100,100,0,0,1,3.75,0,2,225,225,45,1
@@ -59,14 +59,14 @@ and not too distracting.
 
     === "Commie"
 
-         ![Commie dialogue style](./img/styling/groups/commie.png)
+         ![Commie dialogue style](./img/dialogue-styling/groups/commie.png)
 
          ```markdown
          Style: Default,Montara  Gothic,81,&H00FFFFFF,&H00003FFF,&H1E000000,&H96000000,0,0,0,0,100,100,0,0,1,3.6,0,2,135,135,45,1
          ```
     === "Chihiro"
 
-         ![Chihiro dialogue style](./img/styling/groups/chihiro.png)
+         ![Chihiro dialogue style](./img/dialogue-styling/groups/chihiro.png)
 
          ```markdown
          Style: Default,Slate Pro Medium,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,3,1.5,2,255,255,60,1
@@ -95,7 +95,7 @@ and use that as a base for your own.
 <details class="example">
    <summary>Examples of good dialogue fonts</summary>
 
-   <img src="../img/styling/common-dialogue-fonts.png" alt="Common subtitling dialogue fonts">
+   <img src="../img/dialogue-styling/common-dialogue-fonts.png" alt="Common subtitling dialogue fonts">
 </details>
 
 There may be times where a serif font is preferred,
@@ -103,7 +103,7 @@ based on the style of the show.
 The pre-established rules for dialogue fonts still apply,
 but there is more leeway in terms of what font to choose.
 
-![Kaleido's Fate/strange fake style](./img/styling/serif-dialogue-font.png)
+![Kaleido's Fate/strange fake style](./img/dialogue-styling/serif-dialogue-font.png)
 
 The size of the dialogue is determined by the font size.
 This should be set to a value that is large enough to be easily read,
@@ -119,7 +119,7 @@ Due to peculiarities in ASS rendering[^ass-fs],
 this also changes the rendered font size.
 
 !!! example "Visual example"
-    ![Visual examples of how line spacing affects dialogue fonts](img/styling/alegreya-line-spacing.png)
+    ![Visual examples of how line spacing affects dialogue fonts](img/dialogue-styling/alegreya-line-spacing.png)
 
 When dealing with a font with ligatures that can be confused for other characters,
 it is recommended to either disable them in some fashion
@@ -162,7 +162,7 @@ that is still high-contrast enough to not blend into the video.
 
 A common mantra for colour choices in the fansubbing community is:
 
-![White text with a black border can be read on any color!](./img/styling/white-text.png)
+![White text with a black border can be read on any color!](./img/dialogue-styling/white-text.png)
 
 Colours with a similar effect is yellow,
 but that's generally harder to read,
@@ -197,21 +197,21 @@ so most subtitling groups will use a different border colour.
 
 !!! example "Alt styles used by various groups"
     === "Kaleido"
-         ![Kaleido-subs overlapping dialogue style](./img/styling/groups/kaleido-alt.png)
+         ![Kaleido-subs overlapping dialogue style](./img/dialogue-styling/groups/kaleido-alt.png)
 
          ```markdown
          Style: Alt,LTFinnegan Medium,72,&H00FFFFFF,&H00FFFFFF,&H00564100,&HA0000000,0,0,0,0,100,100,0,0,1,3.6,1.5,2,200,200,60,1
          ```
 
     === "Good Job! Media"
-         ![Good Job! Media overlapping dialogue style](./img/styling/groups/goodjobmedia-alt.png)
+         ![Good Job! Media overlapping dialogue style](./img/dialogue-styling/groups/goodjobmedia-alt.png)
 
          ```markdown
          Style: GJM_Overlap_1080p,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00743E15,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,225,225,60,1
          ```
 
     === "DameDesuYo"
-         ![DameDesuYo overlapping dialogue style](./img/styling/groups/damedesuyo-alt.png)
+         ![DameDesuYo overlapping dialogue style](./img/dialogue-styling/groups/damedesuyo-alt.png)
 
          ```markdown
          Style: Default - Alt,Cronos Pro,78,&H00FFFFFF,&H000000FF,&H003C1A00,&H00000000,-1,0,0,0,100,100,0,0,1,3.75,0,2,225,225,45,1
@@ -254,10 +254,10 @@ However,
 this should be used sparingly,
 and be avoided in important scenes
 so as not to distract the viewer's attention.
-We will cover this in more depth in the [shenanigans](../shenanigans.md) document.
+We will cover this in more depth in the [shenanigans](../technical/shenanigans.md) document.
 
 !!! example "Example of 'fun' positioning"
-    ![Example of "fun" positioning: multiple "Welcome!" lines each horizontally aligned to the speaker](./img/styling/wacky-positioning.png)
+    ![Example of "fun" positioning: multiple "Welcome!" lines each horizontally aligned to the speaker](./img/dialogue-styling/wacky-positioning.png)
 
 ### Margins
 
@@ -273,10 +273,10 @@ which can have a negative impact
 on the timing and editing of the line.
 
 !!! example "Kaleido's default margins: Left 200, Right 200, Vert 60"
-    ![Kaleido's default margins](./img/styling/kaleido-house-style-margins.png)
+    ![Kaleido's default margins](./img/dialogue-styling/kaleido-house-style-margins.png)
 
 Margins also decide when a line of dialogue will be automatically broken.
-We will cover this in more depth in the [editing](../editing.md) document,
+We will cover this in more depth in the [editing](../roles/editing.md) document,
 but it's important to understand
 that you will want to avoid breaking lines into more than 2 segments.
 Limiting it to 2 segments at most
@@ -329,8 +329,8 @@ and does not overpower the dialogue.
     a shadow offset of 1.5px,
     and a shadow transparency of 160.
 
-    ![Kaleido's default borders and shadows](./img/styling/kaleido-house-style-outline.png)
-    ![Kaleido's default shadow colour and transparency](./img/styling/kaleido-house-style-shadow-colour.png)
+    ![Kaleido's default borders and shadows](./img/dialogue-styling/kaleido-house-style-outline.png)
+    ![Kaleido's default shadow colour and transparency](./img/dialogue-styling/kaleido-house-style-shadow-colour.png)
 
 ## Resampling
 

@@ -131,7 +131,7 @@ in the target language.
 !!! info "Writing Conventions"
 
     For more information on important writing skills,
-    see the [Editing](../editing.md) guide
+    see the [Editing](../roles/editing.md) guide
     which goes into more detail.
 
 ### Broad knowledge base

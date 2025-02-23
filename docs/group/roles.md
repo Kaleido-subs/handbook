@@ -39,6 +39,8 @@ the project leader is the one who gets to call the final shot.
 
 ## Translator
 
+[In-depth translator page](../roles/translation.md)
+
 The translator is responsible for translating the script,
 as well as signage.
 How much control they have over the final product varies by group,
@@ -61,6 +63,8 @@ This is especially important for things such as terminology.
      so it's almost always best to have a translator in the team.
 
 ## Editor
+
+[In-depth editor page](../roles/editing.md)
 
 The editor is responsible for how the final script reads.
 Their job is to ensure the translation reads well and flows naturally,
@@ -109,6 +113,8 @@ which the editor may miss if they become too caught up on individual lines.
 
 ## Timer
 
+[In-depth timer page](../roles/timing.md)
+
 The timer is responsible for timing the translation.
 For original translations,
 they are often the first person to get to work.
@@ -121,6 +127,8 @@ The timer may also be responsible for karaoke timing
 if the song styler wants to include that.
 
 ## Encoder
+
+<!-- [In-depth encoder page](../roles/encoding.md) -->
 
 The encoder is responsible for the video quality of the final release.
 They should ensure the best video sources are used,
@@ -135,7 +143,17 @@ They, along with the project leader,
 may also decide whether they want to include additional files,
 such as specials or dubbed audio.
 
+!!! tip "Optional Role"
+
+     This role is technically optional,
+     and it's not uncommon
+     for the release
+     to just remux an existing share raw.
+
 ## Typesetter(s)
+
+[In-depth typesetting page](../roles/typesetting.md)
+
 
 The typesetter is responsible for setting translations for the signage of the show.
 This is among the most technically challenging roles,
@@ -172,6 +190,8 @@ If none are found,
 the project leader or typesetter may create some simple song styling.
 
 ## Quality Control/Assurance
+
+<!-- [In-depth QC page](../roles/qc.md) -->
 
 The QC is responsible for ensuring the final product meets a baseline level of quality.
 This is a multi-faceted role,
